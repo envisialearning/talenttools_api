@@ -4,6 +4,6 @@ require 'talenttools_api'
 require 'minitest/autorun'
 
 TalenttoolsApi.configure do |c|
-  c.api_key = "123456"
-  c.url = "http://freetools.dev"
+  c.api_key = ""
+  c.url = "https://talenttools.org/"
 end
